@@ -18,7 +18,7 @@ export default function HeaderApp(){
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="http://jesusfontecha.name/mern" target="_blank">
-                  <span className="text-white">Curso Desarrollo web full-stack con MERN <AiOutlineCopyright /></span><Media style={imgStyle} object src={MyPlaceHolderPicture} alt="Desarrollo web MERN" /></NavLink>
+                  <span className="text-white">Desarrollo web full-stack con MERN <AiOutlineCopyright /></span><Media style={imgStyle} object src={MyPlaceHolderPicture} alt="Desarrollo web MERN" /></NavLink>
               </NavItem>
             </Nav>
           </Navbar>
