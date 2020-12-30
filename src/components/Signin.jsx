@@ -5,7 +5,7 @@ import { Button, Form, FormGroup, Label, Input, Container, Row, Col, Card, CardT
 import { login } from "../utils/apicalls.js";
 import PostList from './posts/PostList';
 
-export default function HeaderApp(props){
+export default function Signin(props){
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
