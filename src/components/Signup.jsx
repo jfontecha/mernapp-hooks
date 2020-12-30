@@ -4,7 +4,7 @@ import { Button, Form, FormGroup, Label, Input, Container, Row, Col, Card, CardT
 import { Link } from 'react-router-dom';
 import { postNewUser } from "../utils/apicalls.js";
 
-export default function HeaderApp(props){
+export default function Signup(props){
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
